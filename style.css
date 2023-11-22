@@ -1,0 +1,8 @@
+.bubble::before {
+    content: '';
+    border-top-left-radius: 70% 100%;
+    border-top-right-radius: 70% 100%;
+    width: 100%;
+    background-color: #FFF5F2;
+    height: 30px;
+}

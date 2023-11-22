@@ -5,209 +5,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Workshop Practice 2</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+   
     <div
-      class="bg-cover bg-center h-screen flex items-center shadow-lg relative"
+      class=" bg-cover bg-center h-screen flex items-center shadow-lg relative"
       style="
         background-image: url('/assets/photo-of-people-doing-handshakes-3183172.png');
       "
     >
       <div class="absolute inset-0 z-0 bg-black opacity-40"></div>
-      <div class="container mx-auto z-10">
-        <img
-          src="/assets/logo.svg"
-          alt="Logo"
-          class="absolute top-14 left-[155px] w-64 p-4 z-10"
-        />
+      <header class="absolute top-0 left-0 w-full  z-10">
+        <div class="container mx-auto mt-14  text-center">
+          <img src="/assets/logo.svg" alt="Logo" class="mx-auto md:mx-0 md:w-64" />
+      </div>
+      
+        
+      </header>
+      <div class="container mx-auto z-10 text-center sm:text-left">
         <div>
-          <h1
-            class="text-white font-roboto font-bold text-5xl leading-60 tracking-wide"
-          >
-            Refer.Earn.Repeat
-          </h1>
-
-          <p
-            class="text-gray-300 font-roboto text-base leading-7 font-normal tracking-wide py-4"
-          >
-            Get rewarded for every sale conversion
-          </p>
-
-          <button
-            class="bg-white hover:bg-blue-500 text-orange-500 font-bold py-2 px-4 rounded inline-flex items-center"
-          >
-            Apply Now
-            <svg
-              class="ml-2 h-4 w-4"
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="17"
-              viewBox="0 0 20 17"
-              fill="none"
-            >
-              <path
-                d="M19.3656 7.4216L12.2584 0.31424C12.0555 0.11136 11.7851 0 11.4968 0C11.2082 0 10.9379 0.11152 10.735 0.31424L10.0898 0.95968C9.88704 1.16224 9.77536 1.4328 9.77536 1.72128C9.77536 2.0096 9.88704 2.28928 10.0898 2.49184L14.236 6.6472H1.0632C0.46928 6.6472 0 7.11216 0 7.70624V8.61872C0 9.2128 0.46928 9.72464 1.0632 9.72464H14.283L10.0899 13.9032C9.8872 14.1061 9.77552 14.3693 9.77552 14.6578C9.77552 14.9459 9.8872 15.213 10.0899 15.4157L10.7352 16.059C10.9381 16.2619 11.2083 16.3725 11.497 16.3725C11.7853 16.3725 12.0557 16.2605 12.2586 16.0576L19.3658 8.9504C19.5691 8.74688 19.681 8.4752 19.6802 8.1864C19.6808 7.89664 19.5691 7.6248 19.3656 7.4216Z"
-                fill="#FF6E43"
-              />
-            </svg>
+            <h1 class="text-white font-roboto font-bold text-3xl sm:text-5xl leading-10 tracking-wide">
+                Refer. Earn. Repeat
+            </h1>
+    
+            <p class="text-gray-300 font-roboto text-sm md:text-base leading-7 font-normal tracking-wide py-4">
+                Get rewarded for every sale conversion
+            </p>
+    
+            <button class="apply-now bg-white transition duration-300 transform hover:bg-blue-600 w-48 sm:w-48  mt-4 p-4 font-semibold flex-shrink-0 rounded-full text-black-300 relative">
+              <span class="mr-4 md:mr-6">Apply Now</span>
+              <span class="absolute right-4 top-1/2 transform -translate-y-1/2 text-orange-500">
+                  <img src="/assets/Path 2.svg" alt="arrow" class="mr-4" />
+              </span>
           </button>
         </div>
-      </div>
+    </div>
     </div>
 
-    <section class="container"><div class=" mx-auto justify-evenly items-center mt-40">
-      <div class="flex flex-shrink-0 h-309 w-466">
-        <img src="./assets/Group 3.svg" />
-      </div>
-      <div class="">
-        <h2 class="font-bold font-sans text-4xl">
-          Bring Value to your<br />
-          Network
-        </h2>
-        <p class="font-sans text-base pt-4">
-          Be the one to bring awesome value to the people in your<br />
-          network and earn awesome rewards. <br />
-          Help them gain access to our tailored app development<br />
-          solutions.
-        </p>
+    <section class="container mx-auto mt-5 mb-5 sm:mt-40 sm:mb-20 px-4">
+      <div class="flex flex-col sm:flex-row justify-evenly items-center mb-20">
+        <div class="flex-shrink-0 w-full sm:w-1/2 mb-6 md:mb-0">
+            <img
+                src="/assets/Group 3.svg"
+                alt="Group-3"
+                class="w-full md:w-[466px] h-auto md:h-[309px]"
+            />
+        </div>
+        <div class=" text-left  w-full sm:w-[450px]">
+          <strong class="text-gray-800 font-roboto text-4xl font-bold leading-10 md:leading-none  md:mb-4">
+              Bring Value to your
+              network
+          </strong>
+          <p class="text-gray-700 font-roboto text-base font-normal leading-6 md:w-450 md:pt-8">
+              Be the one to bring awesome value to the people in your
+              network and earn awesome rewards.<br/>
+              Help them gain access to our tailored app development
+              solutions.
+          </p>
       </div>
     </div>
-    <div class="flex justify-evenly items-center mt-40">
-      <div class="">
-        <h2 class="font-bold font-sans text-4xl">Whom do I Refer?</h2>
-        <p class="font-sans text-base pt-4">
-          Know someone in need of a trusted and efficient development<br />
-          partner? (Startups and entrepreneurs are your best bet) Then<br />
+    <div class="flex flex-col-reverse sm:flex-row justify-evenly items-center mb-20">
+     
+      <div class=" text-left  w-full sm:w-[450px] pr-8">
+        <strong class="text-gray-800 font-roboto text-4xl font-bold leading-10 md:leading-none  md:mb-4">
+          Whom do I Refer?
+        </strong>
+        <p class="text-gray-700 font-roboto text-base font-normal leading-6 md:w-[450px] md:pt-8">
+          Know someone in need of a trusted and efficient development
+          partner? (Startups and entrepreneurs are your best bet) Then 
           that's your guy.
         </p>
+    </div>
+    <div class="flex-shrink-0 w-full sm:w-1/2 pl-0 sm:pl-48 mb-6 md:mb-0">
+      <img
+          src="/assets/Group 10.svg"
+          alt="Group-10"
+          class="w-full md:w-[505px] h-auto md:h-[272px]"
+      />
+  </div>
+  </div>
+     
+    <div class="flex flex-col sm:flex-row justify-evenly items-center mb-20">
+      <div class="flex-shrink-0 w-full sm:w-1/2 mb-6 md:mb-0">
+          <img
+              src="/assets/Group 4.svg"
+              alt="Group-4"
+              class="w-full md:w-[466px] h-auto md:h-[309px]"
+          />
       </div>
-      <div class="flex flex-shrink-0 h-309 w-466">
-        <img src="./assets/Group 10.svg" />
-      </div>
+      <div class=" text-left  w-full sm:w-[450px]">
+        <strong class="text-gray-800 font-roboto text-4xl font-bold leading-10 md:leading-none  md:mb-4">
+          Your Rewards
+        </strong>
+        <p class="text-gray-700 font-roboto text-base font-normal leading-6 md:w-450 md:pt-8">
+          Let's get straight to the good stuff. For each referral you will be rewarded with 10% what we earn from the client for the first 12 months of the engagement. Our average ticket size ranges from $200,000 to $500,000. Also, the process is transparent to ensure complete trust.
+        </p>
+    </div>
+  </div>     
+  </section>
+<section class="container mx-auto bubble flex flex-col w-full">
+  <div
+  class="container  mx-auto bubble bg-gradient-to-b from-[#FFF5F2] to-white">
+ 
+<div class=" text-left md:text-center pt-16 md:pt-16 pb-6 ">
+  <strong class="text-black font-roboto text-4xl font-bold leading-12"
+    >Ok I'm in! How does it Work?</strong
+  >
+  <p class="text-black font-roboto text-lg font-normal leading-6 pt-5">
+    The process is as simple as
+  </p>
+</div>
+
+
+  <div class="grid sm:grid-cols-3 gap-4 flex flex-col sm:flex-row w-full mt-20 sm:mt-60 space-x-4 px-4">
+    <div class=" relative mb-20 transition duration-300 ease-in-out transform hover:bg-orange-500 hover:shadow-md">
+      <img src="/assets/Number_1.svg" alt="number1" class="absolute top-[-100px] bg-gradient-to-r from-lightgray via-lightgray to-lightgray bg-size-100px-100px ">
+        <strong class="text-black font-roboto text-4xl font-bold leading-12 md:leading-normal text-111 font-semibold tracking-tighter w-225 h-76 flex-shrink-0">Register to our program</strong>
+        <p class="text-black font-roboto text-lg font-normal leading-6  flex-shrink-0 pt-5">Register yourself or your business and we'll schedule an introductory call within 2 working days.</p>
     </div>
 
-    <div class="flex justify-evenly items-center mt-40">
-      <div class="flex flex-shrink-0 h-309 w-466">
-        <img src="./assets/Group 4.svg" />
+    <div class=" relative mb-20 rounded-lg  w-320 sm:w-367 h-220 sm:h-224 transition duration-300 ease-in-out transform hover:bg-orange-600 hover:shadow-md" style="border-radius: 5.28px;">
+      <img src="/assets/Number_2.svg" alt="number1" class="absolute top-[-100px]">
+      <strong class="text-black font-roboto text-4xl font-bold leading-12 md:leading-normal font-semibold tracking-tighter w-180 h-76 flex-shrink-0">Refer Neoito</strong>
+        <p class="text-black font-roboto text-lg font-normal leading-6  flex-shrink-0 pt-5">Refer us to your clients, friends, or partners and get them excited. You will also have access to our marketing materials. Just set up the meeting and we will take care of the rest!</p>
+    </div>
+
+    <div class=" relative mb-20 transition duration-300 ease-in-out transform hover:bg-orange-500 hover:shadow-md">
+      <img src="/assets/Number_3.svg" alt="number1" class="absolute top-[-100px]">
+      <strong class="text-black font-roboto text-4xl font-bold leading-12 md:leading-normal text-111 font-semibold tracking-tighter w-304 h-76 flex-shrink-0">Get Rewarded</strong>
+        <p class="text-black font-roboto text-lg font-normal leading-6  flex-shrink-0 pt-5">Once we receive the first payment, you will be rewarded with 10% of what the client pays us for the first year.</p>
+    </div>
+</div>
+
+    
+    
+      <div class=" md:text-center m-3">
+        <strong class="text-black font-roboto text-4xl font-bold leading-12 ml-3"
+          >The Perks</strong
+        >
       </div>
-      <div class="">
-        <h2 class="font-bold font-sans text-4xl">Your Rewards</h2>
-        <p class="font-sans text-base pt-4">
-          Let's get straight to the good stuff. For each referral you will be<br />
-          rewarded with 10% what we earn from the client for the first 12<br />
-          months of the engagement. Our average ticket size ranges<br />
-          from $200,000 to $500,000. Also, the process is transparent to<br />
-          ensure complete trust.
-        </p>
-      </div>
+      <div class="grid grid-cols-2 gap-4 mb-16">
+  <div class="col-span-2 md:col-span-1 bg-white p-4 rounded shadow-md flex items-center ">
+    <div class="w-1 h-1 bg-orange-500 transform rotate-45"></div>
+    <p class="text-base  ml-2 text-gray-800  ">
+      Zero investment and zero registration fees
+    </p>
+  </div>
+  <div class="col-span-2 md:col-span-1 bg-white p-4 rounded shadow-md flex items-center ">
+    <div class="w-1 h-1 bg-orange-500 transform rotate-45 "></div>
+    <p class="text-base ml-2 font-normal text-gray-800  before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500">
+      Generous Rewards
+    </p>
+  </div>
+  <div class="col-span-2 md:col-span-1 bg-white p-4 rounded shadow-md flex ">
+    <div class="w-1 h-1 bg-orange-500 transform rotate-45 mt-3"></div>
+
+    <p class="text-base leading-7 ml-2 font-normal text-gray-800 mb-2 before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500">
+      Marketing resources to help referrals easier
+    </p>
+  </div>
+  <div class="col-span-2 md:col-span-1 bg-white p-4 rounded shadow-md flex ">
+    <div class="w-1 h-1 bg-orange-500 transform rotate-45 mt-3"></div>
+    <p class="text-base leading-7 ml-2 text-gray-800 mb-2 before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500">
+      On-time payment, zero delays
+    </p>
+  </div>
+</div>
+
     </div>
   </section>
-
-    <div class="flex items-center justify-center mt-40">
-      <div class="text-center">
-        <h2 class="font-bold font-sans text-4xl">
-          Ok I'm in! How does it Work?
-        </h2>
-        <p class="font-sans text-lg pt-4">The process is as simple as</p>
-      </div>
-    </div>
-
-    <div class="flex justify-evenly items-center mt-40" style="width: 100%">
       <div
-        class="w-64 h-96"
-        style="width: 375px; height: 126px; flex-shrink: 0"
-      >
-        <h2 class="font-bold font-sans text-xl">
-          Register to our<br />
-          program
-        </h2>
-        <p
-          style="
-            color: #343434;
-            font-family: Roboto;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 25px;
-          "
-        >
-          Register yourself or your business and we'll schedule<br />
-          an introductory call within 2 working days.
-        </p>
-      </div>
-
-      <div
-        class="w-64 h-96 bg-orange-500 text-white p-6"
-        style="
-          width: 367px;
-          height: 224px;
-          flex-shrink: 0;
-          border-radius: 5.28px;
-          background: #ff6e43;
-        "
-      >
-        <h2 class="font-bold font-sans text-xl">
-          Refer<br />
-          Neoito
-        </h2>
-        <p
-          style="
-            width: 327px;
-            height: 111px;
-            flex-shrink: 0;
-            color: #fff;
-            font-family: Roboto;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 25px;
-          "
-          class="font-sans text-lg pt-4"
-        >
-          Refer us to your clients, friends or partners<br />
-          and get them excited. You will also have<br />
-          access to our marketing materials. Just set<br />
-          up the meeting and we will take care of the<br />
-          rest!
-        </p>
-      </div>
-
-      <div class="w-64 h-96">
-        <h2
-          style="
-            width: 304px;
-            height: 76px;
-            flex-shrink: 0;
-            color: #111;
-            font-family: Roboto;
-            font-size: 26px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            letter-spacing: 0.144px;
-          "
-          class="font-bold font-sans text-xl"
-        >
-          Get Rewarded
-        </h2>
-        <p
-          style="
-            width: 345px;
-            height: 99px;
-            flex-shrink: 0;
-            color: #343434;
-            font-family: Roboto;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 25px;
-          "
-        >
-          Once we receive the first payment you will be<br />
-          rewarded with 10% of what the client pays us for<br />
-          the first year.
-        </p>
-      </div>
-    </div>
+      class=" bg-cover bg-center h-screen flex items-center shadow-lg relative "
+      style="
+        background-image: url('./assets/page_5_bg.png');
+      "
+    >
   </body>
 </html>
