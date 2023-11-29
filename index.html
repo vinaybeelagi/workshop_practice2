@@ -131,8 +131,8 @@
 
     <section class="bubble flex flex-col w-full">
       <div class="bg-gradient-to-b from-[#FFF5F2] to-white">
-        <div class="container mx-auto">
-          <div class="text-left md:text-center pb-6">
+        <div class="container mx-auto px-2">
+          <div class="text-left md:text-center pb-6 ">
             <strong class="text-black font-roboto text-4xl font-bold leading-12"
               >Ok I'm in! How does it Work?</strong
             >
@@ -144,16 +144,12 @@
           </div>
 
           <div
-            class="grid sm:grid-cols-3 gap-4 flex flex-col sm:flex-row w-full mt-8 sm:mt-12 space-x-4 px-4"
+            class="grid sm:grid-cols-3 gap-4 flex items-stretch flex-col sm:flex-row w-full mt-8 sm:mt-12 space-x-4  h-auto flex-1"
           >
             <div class="mb-5 sm:mb-20">
-              <img
-                src="/assets/Number_1.svg"
-                alt="number1"
-                class="bg-size-100px-100px"
-              />
+              <img src="/assets/Number_1.svg" alt="number1" class="" />
               <div
-                class="text-black transition duration-300 ease-in-out transform hover:bg-orange-500 hover:text-white pl-4 rounded-md md:h-[201px]"
+                class="text-black transition duration-300 ease-in-out transform hover:bg-orange-500 hover:text-white  rounded-md w-full md:h-[201px]"
               >
                 <strong
                   class="font-roboto text-4xl font-bold leading-12 md:leading-normal text-111 font-semibold tracking-tighter w-225 h-76 flex-shrink-0"
@@ -169,14 +165,15 @@
               </div>
             </div>
 
-            <div class="mb-5 sm:mb-20">
+            <div class="mb-5 sm:mb-20 !ml-0">
               <img src="/assets/Number_2.svg" alt="number1" class="" />
               <div
-                class="text-black transition duration-300 ease-in-out transform hover:bg-orange-500 hover:text-white pl-4 rounded-md md:h-[201px]"
+                class="md:h-[201px] w-full text-black transition duration-300 ease-in-out transform hover:bg-orange-500 hover:text-white  rounded-md"
               >
                 <strong
-                  class="font-roboto text-4xl font-bold leading-12 md:leading-normal font-semibold tracking-tighter w-180 h-76 flex-shrink-0"
-                  >Refer Neoito</strong>
+                  class="font-roboto text-4xl font-bold leading-12 md:leading-normal font-semibold tracking-tighter w-180  flex-shrink-0"
+                  >Refer Neoito</strong
+                >
                 <p
                   class="font-roboto text-lg font-normal leading-6 flex-shrink-0 pt-5"
                 >
@@ -187,10 +184,10 @@
               </div>
             </div>
 
-            <div class="mb-5 sm:mb-20">
+            <div class="mb-5 sm:mb-20 !ml-0">
               <img src="/assets/Number_3.svg" alt="number1" />
               <div
-                class="text-black transition duration-300 ease-in-out transform hover:bg-orange-500 hover:text-white pl-4 rounded-md md:h-[201px]"
+                class="w-full md:h-[201px] text-black transition duration-300 ease-in-out transform hover:bg-orange-500 hover:text-white pl-4 rounded-md"
               >
                 <strong
                   class="font-roboto text-4xl font-bold leading-12 md:leading-normal text-111 font-semibold tracking-tighter w-304 h-76 flex-shrink-0"
@@ -213,32 +210,45 @@
             >
           </div>
           <div class="grid grid-cols-2 gap-4 mb-16">
-            <div class="col-span-2 md:col-span-1 bg-white p-4 rounded flex items-center border-t-2 border-b-2 border-[#E0DFDF]">
-                <div class="w-1 h-1 bg-orange-500 transform rotate-45"></div>
-                <p class="text-base ml-2 text-gray-800">
-                    Zero investment and zero registration fees
-                </p>
+            <div
+              class="col-span-2 md:col-span-1 bg-white p-4 rounded flex items-center border-t-2 border-b-2 border-[#E0DFDF]"
+            >
+              <div class="w-1 h-1 bg-orange-500 transform rotate-45"></div>
+              <p class="text-base ml-2 text-gray-800">
+                Zero investment and zero registration fees
+              </p>
             </div>
-            <div class="col-span-2 md:col-span-1 bg-white p-4 rounded flex items-center border-t-2 border-b-2 border-[#E0DFDF]">
-                <div class="w-1 h-1 bg-orange-500 transform rotate-45"></div>
-                <p class="text-base ml-2 font-normal text-gray-800 before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500">
-                    Generous Rewards
-                </p>
+            <div
+              class="col-span-2 md:col-span-1 bg-white p-4 rounded flex items-center border-t-2 border-b-2 border-[#E0DFDF]"
+            >
+              <div class="w-1 h-1 bg-orange-500 transform rotate-45"></div>
+              <p
+                class="text-base ml-2 font-normal text-gray-800 before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500"
+              >
+                Generous Rewards
+              </p>
             </div>
-            <div class="col-span-2 md:col-span-1 bg-white p-4 rounded flex items-center border-t-2 border-b-2 border-[#E0DFDF]">
-                <div class="w-1 h-1 bg-orange-500 transform rotate-45 mt-3"></div>
-                <p class="text-base leading-7 ml-2 font-normal text-gray-800 mb-2 before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500">
-                    Marketing resources to help referrals easier
-                </p>
+            <div
+              class="col-span-2 md:col-span-1 bg-white p-4 rounded flex   border-b-2 border-[#E0DFDF]"
+            >
+              <div class="w-1 h-1 bg-orange-500 transform rotate-45 mt-3"></div>
+              <p
+                class="text-base leading-7 ml-2 font-normal text-gray-800 mb-2 before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500"
+              >
+                Marketing resources to help referrals easier
+              </p>
             </div>
-            <div class="col-span-2 md:col-span-1 bg-white p-4 rounded flex items-center border-t-2 border-b-2 border-[#E0DFDF]">
-                <div class="w-1 h-1 bg-orange-500 transform rotate-45 mt-3"></div>
-                <p class="text-base leading-7 ml-2 text-gray-800 mb-2 before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500">
-                    On-time payment, zero delays
-                </p>
+            <div
+              class="col-span-2 md:col-span-1 bg-white p-4 rounded flex   border-b-2 border-[#E0DFDF]"
+            >
+              <div class="w-1 h-1 bg-orange-500 transform rotate-45 mt-3"></div>
+              <p
+                class="text-base leading-7 ml-2 text-gray-800 mb-2 before:inline-block before:w-0 before:h-0 before:border before:border-b-3 before:border-transparent before:border-orange-500"
+              >
+                On-time payment, zero delays
+              </p>
             </div>
-        </div>
-        
+          </div>
         </div>
       </div>
     </section>
@@ -260,11 +270,10 @@
             Let's get started
           </p>
         </div>
+
         <div class="max-w-md mx-auto mt-4 text-white">
-          <div class="text-center mb-4 relative pb-2">
-            <div
-              class="flex items-center pb-2 sm:pb-5 "
-            >
+          <div class="text-center mb-4 relative pb-4">
+            <div class="flex items-center pb-4 sm:pb-13">
               <img
                 src="/assets/profile_10302971.png"
                 alt="Profile Icon"
@@ -273,13 +282,13 @@
               <input
                 type="text"
                 placeholder="Name"
-                class="border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none pl-6"
+                class="border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none py-4 pl-6"
               />
             </div>
           </div>
 
           <div class="text-center mb-4 relative pb-2">
-            <div class="flex items-center pb-2 sm:pb-5">
+            <div class="flex items-center pb-6 sm:pb-13">
               <img
                 src="/assets/Group 28.svg"
                 alt="Profile Icon"
@@ -288,13 +297,13 @@
               <input
                 type="text"
                 placeholder="E-mail"
-                class="border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none pl-6"
+                class=" py-4 border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none pl-6"
               />
             </div>
           </div>
 
           <div class="text-center mb-1 relative pb-2">
-            <div class="flex items-center pb-2 sm:pb-5">
+            <div class="flex items-center pb-2 sm:pb-13">
               <img
                 src="/assets/Group 25.svg"
                 alt="Profile Icon"
@@ -303,23 +312,22 @@
               <input
                 type="text"
                 placeholder="LinkedIn"
-                class="border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none pl-6"
+                class=" py-4 border-b w-full md:w-[575px] border-b-2 border-[#6D7B9C] focus:border-blue-500 bg-transparent outline-none pl-6"
               />
             </div>
           </div>
 
-          <div class="pt-2 text-center mb-2 text-[#8C9DC5] ">
-            <p>
+          <div>
+            <p class="pt-2  mb-2 text-[#8C9DC5]">
               We wish to be in close dialogue with our customers as we develop
               our platform. Therefore, your email is important to us.
             </p>
           </div>
 
           <button
-            class="apply-now bg-white transition duration-300 transform hover:bg-blue-600 w-48 sm:w-48 ml-14 md:ml-24 p-4 my-16 font-semibold flex-shrink-0 rounded-full text-black-300 relative"
+            class="apply-now bg-white transition duration-300 transform hover:bg-blue-600 w-48 sm:w-52 ml-14 md:ml-24 p-4 my-16 font-semibold flex-shrink-0 rounded-full text-black-300 relative"
           >
-            <span
-              class="mr-4 md:mr-6 text-black text-xs md:text-base font-bold"
+            <span class="mr-4 md:mr-6 text-black text-xs md:text-base font-bold"
               >Apply Now</span
             >
             <span
@@ -331,124 +339,123 @@
         </div>
       </section>
     </div>
-    <section class="container mx-auto ">
+    <section class="container mx-auto">
       <div class="text-4xl md:text-center text-left font-bold py-8">FAQ</div>
 
-      <div class="flex  flex-col sm:flex-row space-x-4  ">
-        <div class="flex-1 ">
-        <div class="accordion">
-          <div class="accordion-item ">
-            <input type="checkbox" id="question1" class="hidden" />
-            <label
-              for="question1"
-              class="accordion-header cursor-pointer hover:bg-gray-200 p-4 transition duration-300 ease-in-out flex justify-between items-center"
-            >
-              <span>How can I join the Neoito Referral Program?</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                class="w-4 h-4 transform transition-transform"
+      <div class="flex flex-col sm:flex-row space-x-4">
+        <div class="flex-1">
+          <div class="accordion">
+            <div class="accordion-item">
+              <input type="checkbox" id="question1" class="hidden" />
+              <label
+                for="question1"
+                class="accordion-header cursor-pointer hover:bg-gray-200 p-4 transition duration-300 ease-in-out flex justify-between items-center"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </label>
-            <div class="accordion-content bg-white p-4 text-red-500">
-              The process is simple, just fill out the registration form and
-              wait for us to contact you.
+                <span>How can I join the Neoito Referral Program?</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="w-4 h-4 transform transition-transform"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </label>
+              <div class="accordion-content bg-white p-4 text-red-500">
+                The process is simple, just fill out the registration form and
+                wait for us to contact you.
+              </div>
             </div>
-          </div>
 
-          <div class="accordion-item">
-            <input type="checkbox" id="question2" class="hidden" />
-            <label
-              for="question2"
-              class="accordion-header cursor-pointer hover:bg-gray-200 p-4 transition duration-300 ease-in-out flex justify-between items-center"
-            >
-              <span>Will I get paid if it's a small project?</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                class="w-4 h-4 transform transition-transform"
+            <div class="accordion-item">
+              <input type="checkbox" id="question2" class="hidden" />
+              <label
+                for="question2"
+                class="accordion-header cursor-pointer hover:bg-gray-200 p-4 transition duration-300 ease-in-out flex justify-between items-center"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </label>
-            <div class="accordion-content bg-white p-4 text-red-500">
-              Ya, irrespective of project size you will be paid
+                <span>Will I get paid if it's a small project?</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="w-4 h-4 transform transition-transform"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </label>
+              <div class="accordion-content bg-white p-4 text-red-500">
+                Ya, irrespective of project size you will be paid
+              </div>
             </div>
-          </div>
 
-          <div class="accordion-item">
-            <input type="checkbox" id="question3" class="hidden" />
-            <label
-              for="question3"
-              class="accordion-header cursor-pointer hover:bg-gray-200 p-4 transition duration-300 ease-in-out flex justify-between items-center"
-            >
-              <span>How can I track my referral status?</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                class="w-4 h-4 transform transition-transform"
+            <div class="accordion-item">
+              <input type="checkbox" id="question3" class="hidden" />
+              <label
+                for="question3"
+                class="accordion-header cursor-pointer hover:bg-gray-200 p-4 transition duration-300 ease-in-out flex justify-between items-center"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </label>
-            <div class="accordion-content bg-white p-4 text-red-500">
-              Through our official website
+                <span>How can I track my referral status?</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="w-4 h-4 transform transition-transform"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </label>
+              <div class="accordion-content bg-white p-4 text-red-500">
+                Through our official website
+              </div>
             </div>
-          </div>
 
-          <div class="accordion-item">
-            <input type="checkbox" id="question4" class="hidden" />
-            <label
-              for="question4"
-              class="accordion-header cursor-pointer hover:bg-gray-200 p-4 transition duration-300 ease-in-out flex justify-between items-center"
-            >
-              <span>I want to know more, can we talk?</span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                class="w-4 h-4 transform transition-transform"
+            <div class="accordion-item">
+              <input type="checkbox" id="question4" class="hidden" />
+              <label
+                for="question4"
+                class="accordion-header cursor-pointer hover:bg-gray-200 p-4 transition duration-300 ease-in-out flex justify-between items-center"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </label>
-            <div class="accordion-content bg-white p-4 text-red-500">
-              Ya sure at any time
+                <span>I want to know more, can we talk?</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  class="w-4 h-4 transform transition-transform"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </label>
+              <div class="accordion-content bg-white p-4 text-red-500">
+                Ya sure at any time
+              </div>
             </div>
           </div>
         </div>
-      </div>
         <div class="flex-1">
-       
           <div class="accordion-item">
             <input type="checkbox" id="question5" class="hidden" />
             <label
